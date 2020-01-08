@@ -13,16 +13,16 @@ class JankenScreen extends React.Component {
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center'}}>
         <Text style={{fontSize: 40}}>じゃーんけーん...</Text>
 
-        <TouchableOpacity style={{backgroundColor: 'greenyellow', width: '50%', marginBottom: 10}} onPress={() => this.jankenFunc(0)}>
-          <Text style={{fontSize: 40, alignSelf: 'center'}}>ぐー</Text>
+        <TouchableOpacity style={{backgroundColor: 'blue', width: 150, borderRadius: 75, marginBottom: 10}} onPress={() => this.jankenFunc(0)}>
+          <Text style={{fontSize: 40, alignSelf: 'center', color: 'white'}}>ぐー</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity style={{backgroundColor: 'greenyellow', width: '50%', marginBottom: 10}} onPress={() => this.jankenFunc(1)}>
-          <Text style={{fontSize: 40, alignSelf: 'center'}}>ちょき</Text>
+        <TouchableOpacity style={{backgroundColor: 'blue', width: 150, borderRadius: 75, marginBottom: 10}} onPress={() => this.jankenFunc(1)}>
+          <Text style={{fontSize: 40, alignSelf: 'center', color: 'white'}}>ちょき</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity style={{backgroundColor: 'greenyellow', width: '50%', marginBottom: 10}} onPress={() => this.jankenFunc(2)}>
-          <Text style={{fontSize: 40, alignSelf: 'center'}}>ぱー</Text>
+        <TouchableOpacity style={{backgroundColor: 'blue', width: 150, borderRadius: 75,  marginBottom: 10}} onPress={() => this.jankenFunc(2)}>
+          <Text style={{fontSize: 40, alignSelf: 'center', color: 'white'}}>ぱー</Text>
         </TouchableOpacity>
       </View>
     );
