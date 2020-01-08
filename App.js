@@ -19,7 +19,7 @@ export default class App extends React.Component {
           headerTitle: 'じゃんけん'
         }
       },
-      detail: { screen: ResultScreen }
+      result: { screen: ResultScreen }
     });
 
     JankenStack.navigationOptions = ({ navigation }) => {
